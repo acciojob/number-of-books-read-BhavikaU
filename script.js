@@ -24,12 +24,12 @@ const numberOfBooksRead = () => {
 	// 	count++;
 	// }
 	// return count;
-	let numberOfBooks = 0;
-	library.forEach(book) => {
+	let numberOfBooksRead = 0;
+	library.forEach((book) => {
 		if(book.readingStatus)
-			numberOfBooks++;
-	}
-	connsole.log(numberOfBooks);
+			numberOfBooksRead++;
+	})
+	console.log(numberOfBooksRead);
 };
 
 // Do not change the code below
